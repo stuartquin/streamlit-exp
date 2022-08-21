@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "streamlit-exp"
+version = "0.1.0"
+description = ""
+authors = ["Stuart Quin <stuart.quin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = "^1.12.0"
+pandas = "^1.4.3"
+numpy = "^1.23.2"
+pylint = "^2.14.5"
+black = "^22.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
